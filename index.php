@@ -1,6 +1,7 @@
 <?php
 
-echo "from github";
+// echo "from local repo after connection";
+echo "changes are done";
 if (isset($_POST['login-btn'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
