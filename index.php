@@ -1,3 +1,6 @@
+<?php
+echo "index";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
