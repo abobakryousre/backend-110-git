@@ -1,3 +1,10 @@
+<?php
+
+if (isset($_POST['submit-btn'])) {
+    var_export($_POST);
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +18,7 @@
     <form action="index.php" method="post">
         username: <input type="text" name="username" id=""> <br>
         password: <input type="password" name="password" id=""> <br>
-        <input type="submit" value="Login">
+        <input type="submit" value="Login" name="submit-btn">
     </form>
 </body>
 
