@@ -9,7 +9,7 @@
 
 <body>
     <nav>
-        <a href="#">HOME</a>
+        <a href="#" style="color: black">HOME</a>
     </nav>
 </body>
 
