@@ -1,9 +1,11 @@
 <?php
-echo "index";
-
-
-if (isset($_GET['login-btn'])) {
-    var_export($_GET);
+if (isset($_POST['login-btn'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    if ($username == "admin" and $password == "admin") {
+        session_start();
+        $_SESSION['username'] = "admin";
+    }
 }
 ?>
 <!DOCTYPE html>
