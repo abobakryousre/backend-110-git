@@ -1,5 +1,10 @@
 <?php
 echo "index";
+
+
+if (isset($_GET['login-btn'])) {
+    var_export($_GET);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
